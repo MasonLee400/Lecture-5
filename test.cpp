@@ -30,4 +30,5 @@ TEST_CASE("SumVect Function", "[Sum]")
     REQUIRE(VectSum({2, 3}) == 5);
     REQUIRE(VectSum({1}) == 1);
     REQUIRE(VectSum({10, 8, 18}) == 36);
+    REQUIRE(VectSum({11, 1, 7}) == 19);
 }
